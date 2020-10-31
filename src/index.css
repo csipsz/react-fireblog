@@ -6,12 +6,12 @@ body {
 }
 
 form {
-  padding: 20px;
+  padding: 15px;
   margin-top: 60PX;
 }
 
 form button, form h5{
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 input[type=text]:not(.browser-default):focus:not([readonly]),
