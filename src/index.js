@@ -9,7 +9,7 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { reduxFireStore, getFireStore } from 'redux-firestore'
 import { reactReduxFirebase, getFireBase } from 'react-redux-firebase'
-import fbConfig from '../fbConfig'
+import fbConfig from './config/fbConfig'
 
 const store = createStore(rootReducer, 
   compose(
